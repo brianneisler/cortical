@@ -1,0 +1,54 @@
+{
+  "name": "cortical",
+  "version": "0.0.1",
+  "description": "Neural networking library for JS",
+  "main": "index.js",
+  "dependencies": {
+    "babel-polyfill": "6.9.1",
+    "bluebird": "3.4.1",
+    "bug-js": "0.1.1",
+    "event-emitter": "0.3.4",
+    "immutable": "3.8.1",
+    "lodash": "4.13.1 "
+  },
+  "scripts": {
+    "clean": "gulp clean",
+    "dev": "gulp dev",
+    "test": "gulp test"
+  },
+  "bin": {
+    "recipe": "./bin/recipe"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-eslint": "^6.0.4",
+    "babel-jest": "^12.0.2",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "babel-preset-stage-2": "^6.5.0",
+    "bluebird": "^3.4.0",
+    "chai": "^3.5.0",
+    "del": "^2.2.0",
+    "eslint": "^2.10.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-eslint": "^2.0.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-recipe": "0.0.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+  },
+  "author": "Brian Neisler <me@brianneisler.com>",
+  "homepage": "https://github.com/brianneisler/cortical",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brianneisler/cortical.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brianneisler/cortical/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "neural network"
+  ]
+}
